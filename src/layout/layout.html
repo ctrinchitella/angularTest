@@ -1,0 +1,27 @@
+<div class="side-menu">
+    <div>
+        <img src="./dist/imgs/speedometer.svg" width="90px" height="90px"
+            style="display: block; margin-left: auto; margin-right: auto;"
+        />
+    </div>
+    <nav>
+    <ul class="nav nav-pills nav-stacked">
+        <li role="button" ng-click="vm.NavHome()" >
+            <a><span class="glyphicon glyphicon-home" />Home</a>
+        </li>
+        <li role="button" ng-click="vm.NavUser()" >
+            <a><span class="glyphicon glyphicon-user" />User</a>
+        </li>
+        <li role="button" >
+            <a><span class="glyphicon glyphicon-map-marker" />Map</a>
+        </li>
+        <li role="button" >
+            <a><span class="glyphicon glyphicon-cog" />Configuration</a>
+        </li>
+        <li role="button" >
+            <a ng-click="vm.close()"><span class="glyphicon glyphicon-off" />Close</a>
+        </li>
+    </ul>
+    </nav>
+</div>
+<div ui-view class="content"></div>

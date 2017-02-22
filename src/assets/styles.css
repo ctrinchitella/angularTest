@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+    font-family: 'Lato';
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.side-menu {
+    width: 200px;
+    height: 100%;
+    background: #333333;
+    position: absolute;
+    left: 0;
+    display: block;
+}
+
+.side-menu > ul {
+    list-style-type: none;
+    margin: 0;
+}
+.side-menu > ul > li {
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+}
+
+.side-menu > ul > li:hover {
+    background-color: #236275;
+}
+
+.nav-pills>li>a {
+    padding:10px 12px 10px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+}
+
+.nav-pills>li>a:hover {
+    text-decoration:none;
+    color: #dd00dd;
+    background-color: #ffffff;
+}
+
+.nav-pills>li>a>span {
+    padding: 0px;
+}
+
+.nav-pills>li>a>span::before {
+    margin-right: 10px;
+}
+
+.content {
+    background: #ffffff;
+    position: relative;
+    display: block;
+    margin-left: 200px;
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+h5 {
+    display: inline-block;
+    color: #113A47;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: left;
+    padding: 15px 25px;
+}
+
+p {
+    font-family: 'Calibri';
+    font-size: 4em;
+    font-weight: 700;
+    color: #dd00dd;
+    padding: 40px 60px;
+}
